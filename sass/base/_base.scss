@@ -1,0 +1,21 @@
+/********** css reset **********/
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+/********** General Styles ***********/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $color-grey-dark;
+    padding: 3rem;
+    box-sizing: border-box;
+}
